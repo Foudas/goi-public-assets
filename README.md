@@ -17,9 +17,16 @@ Raw URL pattern:
 
     https://raw.githubusercontent.com/Foudas/goi-public-assets/main/portfolios/<filename>
 
+## Naming rule
+
+Filenames contain no spaces and no underscores, so that every raw URL is usable
+without percent encoding. Use CamelCase, for example
+`ChrisAIContentCreationPortfolioSmall.pdf`. Anything added here must follow the
+same rule.
+
 ## Rules for this repo
 
 Nothing confidential belongs here. Assume every file in this repository is world
 readable and permanently cached. Do not add logs, agent prompts, credentials,
-config files, client data, or anything internal. Public portfolio PDFs only, added
-explicitly by name.
+config files, contracts, invoices, client data, or anything internal. Public
+portfolio PDFs only, added explicitly by name.
